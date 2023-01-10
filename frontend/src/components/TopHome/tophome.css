@@ -1,0 +1,25 @@
+.tophome{
+    height: 60vh;
+    background-color: transparent;
+    background-image: url('./baground.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.textcontent{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    padding-top: 13%;
+    color: white;
+}
+.textcontent p{
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .tophome{
+        background-size: cover;
+    }
+}

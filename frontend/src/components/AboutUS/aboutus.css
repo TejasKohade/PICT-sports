@@ -1,0 +1,41 @@
+.devimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.devcol{
+    text-align: center;
+}
+.devrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.headingdevdev{
+    text-align: center;
+    margin-top: 5%;
+
+}
+.headingdev p{
+    color: #ff8800;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    font-size: 25px;
+ }
+ .headingdev p::before, .headingdev p::after{
+    content: "-----";
+    letter-spacing: -5px;
+    font-weight: lighter;
+    margin: 0 20px 0 10px;
+ }
+
+
+@media (max-width: 600px) {
+    .devrow{
+        flex-direction: column;
+    }
+}

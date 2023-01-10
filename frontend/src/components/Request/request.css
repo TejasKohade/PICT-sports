@@ -1,0 +1,48 @@
+.sportsname select{
+    height: 40px;
+    padding-left: 5px;
+    width: 300px;
+}
+.createrequestform{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: space-around;
+}
+.createrequest{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.sportsname input{
+    height: 40px;
+    padding-left: 5px;
+    width: 300px;
+}
+.submitbtn{
+    width: 100px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+.deletebtn{
+    width: 100px;
+}
+
+@media (max-width: 800px) {
+    .createrequest,
+    .createrequestform{
+        display: flex;
+        flex-direction: column;
+    }
+    .sportsname{
+        margin-top: 10px;
+    }
+}
